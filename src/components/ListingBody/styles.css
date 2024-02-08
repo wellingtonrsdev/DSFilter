@@ -1,3 +1,16 @@
-.dsf-listing-body {
-  background-color:  #c2c2c2;
+#dsf-listing-section {
+  background-color: #c2c2c2;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsf-listing-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px 20px 10px 20px;
 }

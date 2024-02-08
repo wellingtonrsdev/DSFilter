@@ -1,4 +1,18 @@
 header {
   height: 70px;
-  background-color:  #55bc04
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  background-color: #55bc04;
+}
+
+.dsf-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.dsf-header-container h1 {
+  font-size: 20px;
 }

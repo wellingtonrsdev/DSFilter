@@ -4,10 +4,19 @@ import Listing from "../Listing";
 
 export default function ListingBody() {
   return (
-    
-    <div className="dsf-listing-body">
-      <Filter />
-      <Listing />
-    </div>
+    <main>
+      <section id="dsf-listing-section">
+        <div className="dsf-container dsf-listing-container mb20">
+          <Filter />
+        </div>
+        <div className="dsf-container dsf-listing-container">
+          <Listing />
+          <Listing />
+          <Listing />
+          <Listing />
+          <Listing />
+        </div>
+      </section>
+    </main>
   );
 }
