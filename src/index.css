@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --dsf-color-bg-primary: ;
+  --dsf-color-bg-secondary: ;
+  --dsf-color-bg-tertiary: ;
+  --dsf-color-bg-quaternary: ;
+
+
+  --dsf-color-font-primary: ;
+
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.dsf-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
