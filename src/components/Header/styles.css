@@ -3,14 +3,14 @@ header {
   display: flex;
   padding: 0 20px;
   align-items: center;
-  background-color: #55bc04;
+  background-color: var(--dsf-color-bg-tertiary);
 }
 
 .dsf-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: var(--dsf-color-font-primary);
 }
 
 .dsf-header-container h1 {

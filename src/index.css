@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 :root {
-  --dsf-color-bg-primary: ;
-  --dsf-color-bg-secondary: ;
-  --dsf-color-bg-tertiary: ;
-  --dsf-color-bg-quaternary: ;
+  --dsf-color-bg-primary: #c2c2c2;
+  --dsf-color-bg-secondary: #fff;
+  --dsf-color-bg-tertiary: #55bc04;
 
+  --dsf-color-font-primary: #fff;
+  --dsf-color-font-secondary: #55bc04;
+  --dsf-color-font-tertiary: #6f6f6f;
 
-  --dsf-color-font-primary: ;
+  --dsf-color-font-placeholder: #c2c2c2;
 
-
+  --dsf-color-border-primary: #c2c2c2;
+  --dsf-color-border-secondary: #55bc04;
 }
 
 * {
@@ -25,6 +28,11 @@ a:hover {
   color: unset;
 }
 
+html,
+body {
+  background-color: var(--dsf-color-bg-primary);
+}
+
 .dsf-container {
   width: 100%;
   max-width: 1200px;
@@ -33,4 +41,8 @@ a:hover {
 
 .mb20 {
   margin-bottom: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
 }

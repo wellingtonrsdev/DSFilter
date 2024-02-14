@@ -1,13 +1,17 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import "./styles.css";
+
+type Props = {
+  onFilter: Function;
+};
 
 type FormData = {
   priceMin?: number;
   priceMax?: number;
 };
 
-export default function Filter() {
+export default function Filter({ onFilter }: Props) {
+
   const [formData, setFormData] = useState<FormData>({});
 
   function handleInputChange(event: any) {
@@ -18,10 +22,15 @@ export default function Filter() {
 
   function handleSubmit(event: any) {
     event.preventDefault();
+    onFilter(formData.priceMin || 0, formData.priceMax || Number.MAX_VALUE);
+    console.log(formData.priceMin || 0, formData.priceMax || Number.MAX_VALUE);
   }
 
   return (
-    <form className="dsf-filter-container dsf-container" onSubmit={handleSubmit}>
+    <form
+      className="dsf-filter-container"
+      onSubmit={handleSubmit}
+    >
       <input
         name="priceMin"
         value={formData.priceMin}

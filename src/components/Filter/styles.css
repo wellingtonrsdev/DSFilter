@@ -1,11 +1,13 @@
 .dsf-filter-container {
+  width: 1200px;
+  margin: 0 auto;
   height: 200px;
-  color: #fff;
+  color: var(--dsf-color-font-primary);
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
   display: flex;
-  background-color: #fff;
+  background-color: var(--dsf-color-bg-secondary);
   flex-direction: column;
 }
 
@@ -16,7 +18,7 @@
   margin-bottom: 20px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #C2C2C2;
+  border: 1px solid var(--dsf-color-border-primary);
   display: flex;
   align-items: center;
 }
@@ -24,10 +26,18 @@
 .dsf-filter-container button {
   width: 200px;
   height: 40px;
-  color: #fff;
-  background-color: #55bc04;
+  color: var(--dsf-color-font-primary);
+  background-color: var(--dsf-color-bg-tertiary);
   font-size: 16px;
   font-weight: 700;
   border: 0;
   border-radius: 5px;
+}
+
+.dsf-filter-container input:focus {
+  outline: none;
+}
+
+.dsf-filter-container input::placeholder {
+  color: var(--dsf-color-font-placeholder);
 }
