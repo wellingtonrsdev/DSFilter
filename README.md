@@ -7,7 +7,7 @@
    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </p>
 
-Projeto desenvolvido foi proposto pela [DevSuperior](https://devsuperior.com.br/), teve o objetivo de filtrar produtos pelo preço minímo e maxímo utlizando a biblioteca React com Typescript, o layout foi disponibilizado no Figma. Com isso foi possível praticar e compreender melhor a estrutura do React, bem como a eventos, estado global sendo a comunicação entre componentes.
+Projeto desenvolvido foi proposto pela [DevSuperior](https://devsuperior.com.br/), teve o objetivo de filtrar produtos pelo preço minímo e maxímo utlizando a biblioteca React com Typescript, o layout foi disponibilizado no Figma. Com isso foi possível praticar e compreender melhor a estrutura do React, bem como eventos, estado global sendo a comunicação entre componentes.
 
 ##
 
