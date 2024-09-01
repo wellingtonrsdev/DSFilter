@@ -20,7 +20,7 @@ Projeto desenvolvido foi proposto pela [DevSuperior](https://devsuperior.com.br/
 
 ## Como criar e executar o DSFilter localmente
 
-Criar e executar o projeto em seu ambiente de desenvolvimento local é muito fácil. Certifique-se de ter o Git instalado e siga as instruções abaixo. Precisa de informações adicionais? entre em contato com os autores.
+Criar e executar o projeto em seu ambiente de desenvolvimento local é muito fácil. Certifique-se de ter o Git, Node e yarn instalados e siga as instruções abaixo. Precisa de informações adicionais? entre em contato com os autores.
 (Estas instruções pressupõem que você esteja instalando como usuário com permissões root/administrador.)
 
 ### Frontend
